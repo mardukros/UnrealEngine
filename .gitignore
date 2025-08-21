@@ -1,0 +1,39 @@
+# UE5 Development Environment - .gitignore
+
+# UE5 Build Artifacts
+Engine/
+*.log
+*.tmp
+build/
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+
+# Development Environment
+.env
+*.swp
+*.swo
+*~
+
+# OS Generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Temporary
+/tmp/
+temp/
+*.bak
